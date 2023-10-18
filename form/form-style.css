@@ -1,0 +1,15 @@
+@charset "utf-8";
+a{
+    font-size: 0.7rem;
+}
+
+fieldset{
+    margin-bottom: 0.8rem;
+}
+
+input[type]{
+    margin-bottom: 0.5rem;
+}
+input[type=radio],input[type=number],input[name="terms"]{
+    margin-right: 0.5rem ;
+}
