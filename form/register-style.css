@@ -1,0 +1,96 @@
+@charset "UTF-8";
+/* header{
+    background-color: black;
+    height: 70px;
+
+} */
+h1{
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 0px;
+    letter-spacing: 2px; /*調べました*/
+}
+
+header{
+    /* background:linear-gradient(to right, rgba(255, 127, 80),#ed2b6b) ; */
+    color: black;
+    padding-bottom: 0.5rem;
+    border-bottom: solid 1px ;
+
+
+}
+
+p{
+    border-left: solid 6px #4abfea;
+    margin-top: 2rem;
+
+}
+
+span{
+    background-color: coral;
+    color: white;
+    font-size: 12px;
+    padding: 4px;
+    margin-left: 0.5rem;
+    border-radius: 10px;
+}
+
+.exp{
+    font-size: 12px;
+background-color: white;
+color: gray;
+}
+table{
+    border-spacing: 1.5rem;
+}
+
+.under{
+    font-size: 14px;
+    background-color: white;
+    color: black;
+}
+body{
+    margin-bottom: 0.5rem;
+
+    margin-left:19rem;
+    margin-right:19rem;
+}
+
+input{
+
+    width: 300px;
+    height: 1.5rem;
+    margin-bottom:1rem;
+}   
+
+.pass{
+    width: 15px;
+    height: 12px;
+    margin-bottom:1rem;
+    margin-left: 1rem;
+}
+
+table th{
+    text-align: left;
+    border-bottom: solid 1px #4abfea;
+    margin-right: 1rem;
+}
+table td{
+    border-bottom: solid 1px #4abfea;
+}
+
+
+
+button{
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    background-color: gray;
+    color: white;
+    width: 200px;
+    height: 40px;
+}
+#submit{
+    background-color: #4abfea;
+}
+/* #ff3377 */
