@@ -1,0 +1,118 @@
+@charset "UTF-8";
+body{
+
+    background-color: #2D2D2D;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+a:visited,a:link{
+color: inherit;
+}
+a,ul li{
+    text-decoration: none;
+    list-style: none;
+
+}
+header{
+    font-family: 'Roboto', sans-serif;
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-top: 16px;
+    padding-bottom: 24px;
+    
+    margin: 0;
+    background-color: #2D2D2D;
+    color: white;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+header nav ul{
+
+    display: flex;
+
+}
+header nav ul li{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 16px;
+    padding-bottom: 8px;
+
+}
+header nav ul li +li{
+    margin-left: 48px;
+}
+header h1{
+    padding-top: 16px;
+    border-top: solid white 1px;
+}
+header nav{
+    border-top: solid white 1px;
+    /* 横張り付き固定 */
+    margin-left: auto;
+
+}
+
+/* end of headerCode */
+
+
+
+/* start of footerCode */
+
+.bg_letter{
+    margin-top: 32px;
+
+}
+.MIDTERM{
+    margin-top: 0.5rem;
+    font-size: 112px;
+    color: white;
+
+
+}
+
+footer{
+    font-family: 'Noto Sans JP', sans-serif;
+    margin-top: 64px;
+    margin-left: 52px;
+    margin-right: 52px;
+    margin-bottom: 0;
+    padding-top: 32px;
+
+    background-color: #2D2D2D;
+    border-top:solid white 1px;
+
+    color: white;
+}
+footer ul li{
+    padding-bottom: 0.5rem;
+}
+footer img{
+    width: 64px;
+    height: 64px;
+    margin-left: 32px;
+}
+
+footer .img{
+    display: flex;
+    padding-right: 64px;
+    margin-left: auto;
+
+    
+}
+
+.footer-ray{
+    display: flex;
+    align-items: center;
+    
+}
+
+.under {
+    padding-right: 64px;
+    text-align: right;
+    
+}
+
+

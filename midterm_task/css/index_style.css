@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+/* body{
+
+    background-color: ;
+    /* 調べました。スクロール時に背景画像を固定
+    background-image: url(../img/webdesign-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right;
+    background-size: 65%;
+}
+ */
+    
+
+ a,ul li{
+    text-decoration: none;
+    list-style: none;
+
+}
+
+
+.line-scrl{
+    margin-left: 16px;
+    border-left:solid white;
+
+}
+.line-scrl .scl{
+    display: block;
+    margin-bottom: auto;
+}
+
+
+.homeMain{
+    /* width: auto;
+    height: auto; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    color: white;
+}
+
+
+.homes{
+    margin-bottom: 64px;
+        /* 調べました、clip-path ジェネレーターで簡単に実装
+        clip-path: polygon(0 0,39% 0,100% 100%,0% 100%); */
+display: flex;
+}
+
+
+#H,#O,#M,#E{
+    font-family: 'Roboto', sans-serif;
+
+    color: #2D2D2D;
+    text-shadow: white 1px 1px 0 ,white -1px 1px 0, white 1px -1px 0 ,white -1px -1px 0;
+    display: block;
+    line-height: 1;
+    font-size: 152px;
+    /* transform: rotate(90deg); */
+}
+
+
+.subtitle{
+    font-family: 'Roboto', sans-serif;
+    line-height: 0.9;
+    font-size: 128px;
+}
+
+#hist,#occupa,#myIntro,#event{
+    transition: 0.5s;
+    white-space:nowrap;
+    
+    overflow: hidden;
+
+    padding-top: 32px;
+    margin-right: 8px;
+    border-bottom: solid #FF9888 2px;
+    animation:moving 2s linear;
+
+}
+
+#hist:hover{
+    letter-spacing: 0.1em;
+    color: #2D2D2D;
+        text-shadow: #FF9888 1px 1px 0 ,#FF9888 -1px 1px 0, #FF9888 1px -1px 0 ,#FF9888 -1px -1px 0;
+
+}
+#occupa:hover{
+    letter-spacing: 0.1em;
+    color: #2D2D2D;
+        text-shadow: #FF9888 1px 1px 0 ,#FF9888 -1px 1px 0, #FF9888 1px -1px 0 ,#FF9888 -1px -1px 0;
+
+}
+#myIntro:hover{
+    letter-spacing: 0.03em;
+    color: #2D2D2D;
+        text-shadow: #FF9888 1px 1px 0 ,#FF9888 -1px 1px 0, #FF9888 1px -1px 0 ,#FF9888 -1px -1px 0;
+
+}
+#event:hover{
+    color: #2D2D2D;
+        text-shadow: #FF9888 1px 1px 0 ,#FF9888 -1px 1px 0, #FF9888 1px -1px 0 ,#FF9888 -1px -1px 0;
+
+}
+
+
+
+
+@keyframes moving{
+    from{
+        width: 0%;
+    }
+    to{
+        width: 100%;
+    }
+}

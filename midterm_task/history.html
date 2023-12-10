@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- reset.css modern-css-reset -->
+    <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all_style.css">
+    <link rel="stylesheet" href="css/history_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&family=Roboto:wght@100&family=Yuji+Syuku&display=swap"
+        rel="stylesheet">
+
+    <title>HTML/CSS 中間課題</title>
+</head>
+
+<body>
+
+    <header>
+
+        <h1> <a href="index.html">HTML/CSS 中間課題</a></h1>
+        <nav>
+            <ul>
+                <li><a href="history.html">ITの歴史</a></li>
+                <li><a href="occupa.html">気になる職種</a></li>
+                <li><a href="event.html">注目したニュース</a></li>
+                <li><a href="self-introduction.html">自己紹介</a></li>
+            </ul>
+        </nav>
+        </div>
+
+    </header>
+
+    <main>
+        <div class="main">
+                <div class="mainHis">
+                    <h1>History -<br><span class="underline">&emsp;Computer Virus&emsp;&emsp;</span></h1>
+                    <p>ITの歴史を振り返る。今回は、ITの進歩とともに進歩して"しまった"コンピュータウイルスについて紹介する。
+                        何においても、進歩には負の面が付きまとう。
+                    </p>
+                </div>
+
+        </div>
+        <div class="inHis">
+            <table>
+                <tr>
+                    <td>1960年代～</td>
+                    <td>
+                        <h2 class="underline">コンピュータウイルスの誕生</h2>
+                        <p>「THE Creeper」と呼ばれるワームが最初のウイルスと言われています。実際には、
+                            プログラムだけで自己増殖ができるかどうかの実験として作られたものですが、
+                            動きはコンピュータウイルスと近いものです。挙動として、ハードディスクに感染すると
+                            次のハードディスクに感染し、元居たところの自身の削除を試みます。<br><br>
+                            ただ、そのThe Creeper自身は、「I'm THE CREEPER. CATCH IF YOU CAN!(私はクリーパー。あなたに捕まえられるかな？)」
+                            と表示するだけでした。
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="nonbr">1970年代～</td>
+                    <td>
+                        <h2 class="underline">トロイの木馬</h2>
+                        <p>「ANIMAL」という、トロイの木馬型ウイルスが初めてつくられました。
+                            実際には、ANIMALは普通のアプリでしたが、プログラムがインストールされていない必要なディレクトリを
+                            勝手にダウンロードする動きを入れてしまい、それがコンピュータの負荷になってしまいました。<br><br>
+                            これが、初期のトロイの木馬型マルウェアとされています。
+
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="nonbr">1980年代～</td>
+                    <td>
+                        <h2 class="underline">不正コピーの対策の末に</h2>
+                        <p>「Brain」はコンピュータ関連の会社を経営していた兄弟が、不正コピーが横行しはじめた対策として、コピーを
+                            検出するとメッセージを表示するプログラムを作成しました。このプログラムはコンピュータが普及され始めたアメリカで
+                            多く検出され、あまりに多くの不正コピーが行われている実態が浮き彫りになり問題になりました。<br><br>
+                            この時代に、自己増殖できるウイルスを「ウイルス」、その拡散を「感染」と名付けました。<br><br>
+                            また、「Den Zuk」という、「Brain」を除去できる、アンチウィルスソフトの先駆けも生み出されました。
+
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="nonbr">1990年代～</td>
+                    <td>
+                        <h2 class="underline">明確な"悪意"</h2>
+                        <p>ついに日本国内でも発見されるようになります。<br>
+                            「Dbf-1」はコンピュータ用のゲームに感染し、感染したゲームを起動するとディスク内のデータをすべて破壊してしまう設計に。<br>
+                            2000年代になると、世界的な障害を与えるウイルスが次々と発生します。<br><br>
+                            「W32/SQL Slammer」はMicrosoft SQL Serverの脆弱性をついたウイルスで、発見から数十分のうちに全世界7万5000以上のサーバーに感染、
+                            世界的なネットワーク障害を発生させました。
+                            近年最も危険なマルウェアとして、2014年に発生した「Heartbleed」があげられます。突然現れたHeartbleedにより、インターネット全てのサーバーが
+                            脅威にさらされました。挙動を要約すると、送りたくないデータまで強制的に送信するように設定しなおすというもので、これによりパスワードやアカウント情報が外部に漏れてしまいます。<br><br>
+                        </p>
+                    </td>
+                </tr>
+            </table>
+            <div class="clear"></div>
+            <p id="p">このように、コンピュータウイルスは日々進歩しています。IT技術の進歩により、負の面、ウイルスも進歩の道が広がっています。<br>
+            対策にも限界があります。最近現れたトロイの木馬型マルウェアは、すべてのセキュリティ対策をすり抜けます。<br>
+            私たちが対策できることは限られていますが、単純な対策をすることで、案外防げることもあります。<br><br>
+            必要なのは、技術の変化と同時に、私たち利用側の意識の変化なのでしょう。
+            </p>
+        </div>
+
+    </main>
+
+
+    <footer>
+        <div class="footer-ray">
+            <ul>
+                <li>name. 小山陽向</li>
+                <li>No.4232107</li>
+                <li>Department. 総合システム工学科</li>
+            </ul>
+            <div class="img">
+                <a href="https://www.instagram.com/morijyobi_official/" target="_blank">
+                    <img src="img/Instagram.png" alt="instagram">
+                </a>
+                <a href="https://twitter.com/morijyobi_olive" target="_blank">
+                    <img src="img/X.png" alt="X">
+                </a>
+
+            </div>
+
+
+
+        </div>
+        <div class="under">
+            <p>&copy; 2023 JYOBI STUDENT</p>
+        </div>
+
+        <div class="bg_letter">
+            <span class="MIDTERM"> MIDTERM ASSIGNMENT</span>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

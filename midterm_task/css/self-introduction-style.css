@@ -1,0 +1,73 @@
+/*記述済みの部分は変更しないでください！*/
+@charset "utf-8";
+body{
+    margin: 0;
+}
+
+
+main{
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: white;
+    font-size: 16px;
+    padding-top: 2rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+.mainIntro{
+    width: 50rem;
+    height: auto;
+    padding-right: 3rem;
+
+}
+.underline{
+    border-bottom: solid #FF9888 2px;
+
+}
+
+main h1{
+    font-size: 72px;
+    font-family: 'Noto Sans JP', sans-serif;
+
+
+}
+.main{
+    display: flex;
+}
+.mark-list {
+    list-style: "★";
+}
+.submain{
+    padding-top: 6rem;
+    height: auto;
+}
+
+.a{
+color: #FF9888;
+}
+.a:visited{
+    color: #FF9888;
+}
+
+.introImg{
+    width: 30rem;
+    height: 30rem;
+    padding-left: 2rem;
+    position: sticky;
+    top: 4rem;
+
+}
+.introImg img{
+    border-radius: 1rem;
+    width: 90%;
+    height: auto;
+}
+main ul li{
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-bottom: solid 1px #2d2d2d;
+
+}
+
+p{
+    margin-bottom: 2rem;
+}
